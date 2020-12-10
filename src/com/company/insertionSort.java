@@ -14,7 +14,7 @@ public class insertionSort {
         * break;
         * 51 replaced by 23;
         * */
-        
+
         for(int unsortedIndex = 1; unsortedIndex < intArray.length; unsortedIndex++){
             int toSort = intArray[unsortedIndex];
             int i;
