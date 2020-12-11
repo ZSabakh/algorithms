@@ -16,7 +16,6 @@ public class ShellSort {
         * array[j] - array[0] - 51 will become tosort (22). and in while loop above 22 has become 51
         * */
 
-
         for(int gapValue = intArray.length / 2; gapValue > 0; gapValue /= 2){
 
             for(int i = gapValue; i < intArray.length; i++){
