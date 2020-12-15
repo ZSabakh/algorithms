@@ -35,7 +35,7 @@ public class MergeSort {
         while(i < middle && j < end){
             //When hitting the end of left array (reach mid) break loop, when hitting end of right array (reach end) break loop;
             temp[tempIndex++] = array[i] <= array[j] ? array[i++] : array[j++];
-            //If array[i] is less or= than array[j] then insert i into array and add 1 to it
+            //If array[i] is less or= than array[j] then insert i into array and add 1 to it?
         }
         System.arraycopy(array, i, array, start + tempIndex, middle - i);
         System.arraycopy(temp, 0, array, start, tempIndex);
