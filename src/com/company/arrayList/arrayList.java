@@ -2,11 +2,12 @@ package com.company.arrayList;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 public class arrayList {
 
     public static void main(String[] args) {
-        List<com.company.arrayList.Employee> employeeList = new ArrayList<>();
+        List<com.company.arrayList.Employee> employeeList = new Vector<>();
         employeeList.add(new Employee("Mikheil", "Saakashvili", 5));
         employeeList.add(new Employee("Bidzina", "Ivanishvili", 41));
         employeeList.add(new Employee("Nino", "Burjanadze", 666));
