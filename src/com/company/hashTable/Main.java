@@ -15,9 +15,12 @@ public class Main {
         hashTable.put(janeJones.getLastName(), janeJones);
         hashTable.put(johnDoe.getLastName(), johnDoe);
         hashTable.put(marySmith.getLastName(), marySmith);
+        hashTable.put(mikeWilson.getLastName(), mikeWilson);
+        hashTable.put(billEnd.getLastName(), billEnd);
 
-//        hashTable.printTable();
-
-        System.out.println(hashTable.get(janeJones.getLastName()));
+        hashTable.printTable();
+        hashTable.remove(billEnd.getLastName());
+        hashTable.remove(marySmith.getLastName());
+        hashTable.printTable();
     }
 }
